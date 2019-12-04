@@ -29,6 +29,7 @@ public class MD5 {
 		return md5.toString();
 	}
 	public static void main(String[] args) {
+		
 		System.out.println(encrypt("admin", "admin"));
 	}
 }

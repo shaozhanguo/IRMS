@@ -2,7 +2,7 @@
 <!DOCTYPE mapper
 PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
 "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
-<mapper namespace="com.irms.mapper.LogMapper">
+<mapper namespace="com.irms.sys.mapper.LogMapper">
 
 	<select id="selectLoglistByPage" parameterType="log"
 		resultType="log">

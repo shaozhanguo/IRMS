@@ -2,7 +2,7 @@
 <!DOCTYPE mapper
 PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
 "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
-<mapper namespace="com.irms.mapper.RoleMapper">
+<mapper namespace="com.irms.sys.mapper.RoleMapper">
 	<!-- 查询 -->
 	<!-- 查询所有角色role，使用name模糊查询、enabl精准查询 -->
 	<select id="selectRolelistByPage" parameterType="role"

@@ -54,7 +54,7 @@
 		<property name="realm" ref="realm"></property>
 	</bean>
 	<!-- 自定义的realm -->
-	<bean id="realm" class="com.irms.shiro.Realm"/>
+	<bean id="realm" class="com.irms.core.shiro.Realm"/>
 	
 	<!-- 启动shiro注解 -->
 	<bean

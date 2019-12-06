@@ -12,7 +12,7 @@ PUBLIC "-//mybatis.org//DTD Config 3.0//EN"
 	<!-- 配置别名 -->
 	<typeAliases>
 		<!-- 批量扫描别名 -->
-		<package name="com.irms.entity" />
+		<package name="com.irms.*.entity" />
 	</typeAliases>
 	<!-- 由于整合不在此处扫描mapper包 -->
 	<!-- 配置分页插件 -->
